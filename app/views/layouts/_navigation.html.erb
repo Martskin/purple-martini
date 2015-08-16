@@ -8,11 +8,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+      <%= link_to ('<i class="glyphicon glyphicon-glass"></i> Purple Martini').html_safe, root_path, class: 'navbar-brand' %>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <%= render 'layouts/navigation_links' %>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to ('<i class="glyphicon glyphicon-shopping-cart"></i> <span class="visible-xs-inline">Cart</span>').html_safe, page_path('cart'), :data => {:toggle => 'tooltip', :title => 'View Cart', :placement => 'bottom'} %></li>
       </ul>
     </div>
   </div>

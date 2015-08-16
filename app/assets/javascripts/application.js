@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip(
+			{
+				container: 'body'
+			}
+  	)
+})

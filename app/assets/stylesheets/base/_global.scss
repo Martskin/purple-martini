@@ -1,5 +1,7 @@
 // Global
 
+$gray-lightish	: lighten($gray-light, 30%);
+
 .tooltip {
 	@media (max-width: $screen-sm) {
 		display: none !important;
@@ -22,5 +24,71 @@
 .media {
 	@media (max-width: $screen-sm) {
 		margin-bottom: $xlarge-padding;
+	}
+}
+
+.media-stream {
+	margin:0;
+	padding:$large-padding;
+	border-top:1px solid $gray-lightish;
+	&:hover {
+		background: $white;
+	}
+	.media-left {
+		text-align:center;
+	}
+	.media-heading {
+		font-weight:400;
+		letter-spacing: inherit;
+	}
+	.media-body {
+		border-left:1px solid $gray-lightish;
+		padding-left: $large-padding;
+	}
+}
+
+.amount {
+	color:$purple-dark;
+	font-size:45px;
+	line-height:1.1em;
+	font-family: $serif-font-family;
+  margin-top: -15px;
+  width: 90px;
+}
+
+.meta {
+	font-size:14px;
+	color:$gray-lightish;
+}
+
+.cta {
+	padding-top:$xlarge-padding;
+	width: 245px;
+	@media (max-width: $screen-sm) {
+		left:-2000px;
+	}
+	@media (min-width: $screen-sm) {
+		padding:$xlarge-padding 0;
+	}
+	@media (min-width: $screen-md) {
+		width: 310px;
+	}
+	@media (min-width: $screen-lg) {
+		width: 375px;
+	}
+}
+
+.stream {
+	background:$gray-lighter;
+	margin:$base-padding 0;
+	border-radius:4px;
+	border:1px solid $gray-lightish;
+	overflow:hidden;
+	@media (min-width: $screen-sm) {
+		padding-top:$xlarge-padding 0;
+	}
+	h1 {
+		padding-right:$base-padding;
+		padding-left:$base-padding;
 	}
 }

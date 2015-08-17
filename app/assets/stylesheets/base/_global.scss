@@ -19,3 +19,8 @@
 	}
 }
 
+.media {
+	@media (max-width: $screen-sm) {
+		margin-bottom: $xlarge-padding;
+	}
+}

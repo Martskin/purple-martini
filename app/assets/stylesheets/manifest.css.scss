@@ -1,9 +1,12 @@
-// import variables
+// import variables before bootstrap
 @import "base/variables";
 
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// import base
+@import "base/*";
 
 // make all images responsive by default
 // img {

@@ -3,6 +3,12 @@ Purple Martini
 
 The drink that changed the world.
 
+##Run The Application
+
+@$ gem install@
+
+@$ rails server@
+
 
 This application requires:
 

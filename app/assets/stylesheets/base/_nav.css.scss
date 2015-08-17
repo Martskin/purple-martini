@@ -1,0 +1,17 @@
+// Nav
+
+.navbar {
+	font-weight: 100;
+	letter-spacing: 0.07em;
+}
+
+.navbar-nav {
+	> li {
+		 > a {
+		 	@media (min-width: $screen-sm) {
+				 	padding-top: 20px;
+			 }
+		 }
+	}
+}
+	

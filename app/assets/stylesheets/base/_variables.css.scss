@@ -1,9 +1,23 @@
 // Variables
 
+// Colors
 $white	: #ffffff;
-$brand-primary	: #4f2f4f;
-$link-color:	#CC00FF;
+$purple-dark	:	#2E0854;
+$purple-medium	:	#4f2f4f;
+$purple-light	:	#CC00FF;
+//Bootstrap color variables
+$brand-primary	: $purple-medium;
+$link-color:	$purple-light;
 $btn-primary-bg : $link-color;
 $btn-default-border : $link-color;
-$navbar-inverse-bg : #2E0854;
+$navbar-inverse-bg : $purple-dark;
 $navbar-inverse-link-color : $white;
+$navbar-inverse-link-hover-bg: $link-color;
+$navbar-inverse-toggle-icon-bar-bg	: $link-color;
+$navbar-inverse-toggle-hover-bg	: $white;
+$navbar-inverse-toggle-border-color: $link-color;
+$headings-font-weight : 100;
+$navbar-inverse-brand-hover-color	: $purple-light;
+
+// Sizes
+$nav-height : 56px;

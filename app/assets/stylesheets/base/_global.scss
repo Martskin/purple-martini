@@ -53,8 +53,9 @@ $gray-lightish	: lighten($gray-light, 30%);
 	line-height:1.1em;
 	font-family: $serif-font-family;
   margin-top: -15px;
-  width: 90px;
+  width: 60px;
   @media (min-width: $screen-md) {
+  	width: 90px;
   	font-size:45px;
   }
 }
@@ -90,7 +91,7 @@ $gray-lightish	: lighten($gray-light, 30%);
 
 .stream {
 	background:$gray-lighter;
-	margin:$base-padding 0;
+	margin:$xlarge-padding 0;
 	border-radius:4px;
 	border:1px solid $gray-lightish;
 	overflow:hidden;
@@ -100,5 +101,27 @@ $gray-lightish	: lighten($gray-light, 30%);
 	h1 {
 		padding-right:$base-padding;
 		padding-left:$base-padding;
+	}
+}
+
+.cart-label {
+	font-size:10px;
+	color:$gray-light;
+}
+
+.cart-label-qty {
+	width: 60px;
+  @media (min-width: $screen-md) {
+  	width: 90px;
+  }
+}
+
+.total-column {
+	padding:$xlarge-padding 0 0;
+	h2 {
+		margin-top: 0;
+	}
+	h3 {
+		margin-top: 6px;
 	}
 }

@@ -1,5 +1,104 @@
-<% content_for :title do %>Cart<% end %>
-<h3>Cart</h3>
-<p>
-
-</p>
+<% content_for :title do %>Shopping Cart<% end %>
+<div class="container">
+		<div class="col-xs-12 col-sm-2 col-sm-push-10">
+			<div class="total-column">
+				<div class="row">
+			  	<div class="col-xs-3 col-sm-12">
+						<h3>Total:</h3>
+					</div>
+					<div class="col-xs-9 col-sm-12">
+						<h2><strong>$38.59</strong></h2>
+					</div>
+				</div>
+				<p>
+					<%= link_to 'Checkout', page_path('cart'), :class => 'btn btn-primary btn-lg' %>
+				</p>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-10 col-sm-pull-2">
+			<div class="stream">
+				<h1>Shopping Cart</h1>
+				<div class="media media-stream">
+				  <div class="media-left">
+  			  	<div class="cart-label cart-label-qty">Quantity</div>
+				  </div>
+				  <div class="media-body">
+					  <div class="row">
+					  	<div class="col-xs-12 col-sm-8">
+						    <div class="cart-label">Product Name</div>
+					    </div>
+					    <div class="col-xs-12 col-sm-2 hidden-xs">
+					    	<div class="cart-label">Cost</div>
+					    </div>
+					    <div class="col-xs-12 col-sm-2 hidden-xs">
+					    	<div class="cart-label">Total</div>
+					    </div>
+				    </div>
+				  </div>
+				</div><!-- .media -->
+				<div class="media media-stream">
+				  <div class="media-left">
+  			  	<div class="amount"><p>23</p></div>
+  			  	<button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+				  </div>
+				  <div class="media-body">
+					  <div class="row">
+					  	<div class="col-xs-12 col-sm-8">
+						    <h3 class="media-heading">Purple Martini Case</h3>
+						    <p class="meta">12 bottles per case.</p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+						    	<p class="price"><span class="cart-label visible-xs-inline">Cost:</span> $400</p>
+						    	<p><button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-remove"></i> Remove</button></p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+					    	<p class="price"><span class="cart-label visible-xs-inline">Total:</span> <strong>$9,200</strong></p>
+					    </div>
+				    </div>
+				  </div>
+				</div><!-- .media -->
+				<div class="media media-stream">
+				  <div class="media-left">
+  			  	<div class="amount"><p>1</p></div>
+  			  	<button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+				  </div>
+				  <div class="media-body">
+					  <div class="row">
+					  	<div class="col-xs-12 col-sm-8">
+						    <h3 class="media-heading">Purple Martini T-Shirt</h3>
+						    <p class="meta">XL, Purple, Mens</p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+					    	<p class="price"><span class="cart-label visible-xs-inline">Cost:</span> $25</p>
+					    	<p><button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-remove"></i> Remove</button></p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+					    	<p class="price"><span class="cart-label visible-xs-inline">Total:</span> <strong>$25</strong></p>
+					    </div>
+				    </div>
+				  </div>
+				</div><!-- .media -->
+				<div class="media media-stream">
+				  <div class="media-left">
+  			  	<div class="amount"><p>4</p></div>
+  			  	<button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+				  </div>
+				  <div class="media-body">
+					  <div class="row">
+					  	<div class="col-xs-12 col-sm-8">
+						    <h3 class="media-heading">Purple Martini Drink Koozies</h3>
+						    <p class="meta">One size fits most.</p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+					    	<p class="price"><span class="cart-label visible-xs-inline">Cost:</span> $5</p>
+					    	<p><button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-remove"></i> Remove</button></p>
+					    </div>
+					    <div class="col-xs-12 col-sm-2">
+					    	<p class="price"><span class="cart-label visible-xs-inline">Total:</span> <strong>$20</strong></p>
+					    </div>
+				    </div>
+				  </div>
+				</div><!-- .media -->
+			</div>
+		</div>
+</div>

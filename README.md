@@ -1,3 +1,6 @@
+
+![batch-logo](https://cloud.githubusercontent.com/assets/3717760/9297331/ae2aa09a-446b-11e5-9659-62396915c1d0.png)
+
 Purple Martini
 ================
 

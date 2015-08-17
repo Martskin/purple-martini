@@ -1,0 +1,13 @@
+// Icons
+
+.pm-icon-hero {
+	color:$purple-dark;
+	width: 100%;
+  padding-top: 26px;
+  font-size: 100px;
+  margin-bottom: $padding-large-horizontal;
+  @media (min-width: $screen-md) {
+	  text-align: center;
+  	font-size: 185px;
+  }
+}

@@ -18,6 +18,11 @@ $navbar-inverse-toggle-hover-bg	: $white;
 $navbar-inverse-toggle-border-color: $link-color;
 $headings-font-weight : 100;
 $navbar-inverse-brand-hover-color	: $purple-light;
+$jumbotron-bg	: $white;
+$jumbotron-heading-color	:	$purple-dark;
 
 // Sizes
 $nav-height : 56px;
+$base-padding: 8px;
+$large-padding: $base-padding*2;
+$xlarge-padding:	$base-padding*4;

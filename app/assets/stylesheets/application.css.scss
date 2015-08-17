@@ -10,5 +10,15 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require manifest
+ *= require_self
  */
+
+// import variables before bootstrap
+@import "base/variables";
+
+// import the CSS framework
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// import base
+@import "base/*";

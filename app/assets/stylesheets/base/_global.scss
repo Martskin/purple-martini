@@ -1,0 +1,21 @@
+// Global
+
+.tooltip {
+	@media (max-width: $screen-sm) {
+		display: none !important;
+	}
+}
+
+.jumbotron {
+	h1 {
+		@media (max-width: $screen-sm) {
+			font-size: 35px;
+		}
+	}
+	h2 {
+		@media (max-width: $screen-sm) {
+			font-size: 24px;
+		}
+	}
+}
+

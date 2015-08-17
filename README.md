@@ -5,9 +5,9 @@ The drink that changed the world.
 
 ##Run The Application
 
-@$ gem install@
+`$ gem install`
 
-@$ rails server@
+`$ rails server`
 
 
 This application requires:

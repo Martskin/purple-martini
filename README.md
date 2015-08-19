@@ -8,7 +8,7 @@ The drink that changed the world.
 
 ##Run The Application
 
-`$ gem install`
+`$ bundle install`
 
 `$ rails server`
 
